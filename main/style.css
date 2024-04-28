@@ -1,4 +1,19 @@
 html {
     background: linear-gradient(to bottom right, #565656, #242424);
     min-height: 100%;
+
+    font-family: 'Fredoka', sans-serif;
+}
+
+.title-text {
+    text-align: center;
+    color: white;
+}
+
+.user {
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+    unicode-bidi: plaintext;
+    background: hsl(235 calc(1 * 85.6%) 64.7% / 0.3);
 }
