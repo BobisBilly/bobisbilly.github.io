@@ -7,7 +7,7 @@ window.onload = function() {
 async function getData() {
     var test = fetch("https://discord.com/api/v9/users/1022602321370296371", {
         headers: {
-            
+            Application: `Bot: ${DATACOLLECTOR}`
         }
     });
     var idk = (await test).json;
