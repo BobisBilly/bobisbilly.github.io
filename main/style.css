@@ -11,6 +11,8 @@ html {
 }
 
 .user {
+    color: white;
+    text-decoration: none;
     border-radius: 3px;
     padding: 0 2px;
     font-weight: 500;
