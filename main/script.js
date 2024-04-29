@@ -1,6 +1,5 @@
-require('dotenv').config();
-
 window.onload = function() {
+    require('dotenv').config();
     var text = document.getElementById("test");
 
     getData();
