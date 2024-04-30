@@ -57,6 +57,7 @@ p {
 
 desc {
     color:  gray;
+    cursor: default;
     transition: 0.25s;
 }
 
