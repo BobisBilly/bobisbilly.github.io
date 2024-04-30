@@ -19,3 +19,47 @@ html {
     unicode-bidi: plaintext;
     background: hsl(235 calc(1 * 85.6%) 64.7% / 0.3);
 }
+
+.current {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 2.5%;
+    padding: 1px 5px;
+    word-wrap: break-word;
+}
+
+p {
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    padding: 0.2em;
+    margin: 0 2.5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.car {
+    position: relative;
+    background-color: #ff000000;
+    border-radius: 10px;
+    font-weight:600;
+    padding: 0em;
+    font-size: 20px;
+}
+
+.content {
+    width: 85%;
+    margin: auto;
+}
+
+desc {
+    color:  gray;
+    transition: 0.25s;
+}
+
+desc:hover {
+    color: white;
+}
