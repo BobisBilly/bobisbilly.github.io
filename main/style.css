@@ -30,6 +30,7 @@ html {
     margin: 0 2.5%;
     padding: 1px 5px;
     word-wrap: break-word;
+    cursor: default;
 }
 
 p {
@@ -41,7 +42,7 @@ p {
     margin-bottom: 5px;
 }
 
-.car {
+.title {
     position: relative;
     background-color: #ff000000;
     border-radius: 10px;
@@ -57,10 +58,28 @@ p {
 
 desc {
     color:  gray;
-    cursor: default;
     transition: 0.25s;
 }
 
 desc:hover {
     color: white;
+}
+
+.secret-mode {
+    border-radius: 10px;
+    padding: 5px;
+    width: 1.75em;
+    font-size: large;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    color: white;
+    border: none;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
 }
