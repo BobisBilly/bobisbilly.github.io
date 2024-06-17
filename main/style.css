@@ -95,13 +95,12 @@ desc:hover {
     border-radius: 5px;
     width: var(--width-for-boxes);
     margin: auto;
-    
     padding: 1px 5px;
     word-wrap: break-word;
     cursor: default;
 }
 
-.unknown {
+.future {
     float: right;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -112,5 +111,4 @@ desc:hover {
     padding: 1px 5px;
     word-wrap: break-word;
     cursor: default;
-    
 }
