@@ -101,7 +101,7 @@ desc:hover {
     cursor: default;
 }
 
-.unknown {
+.future {
     float: right;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
