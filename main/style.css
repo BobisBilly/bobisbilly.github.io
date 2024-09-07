@@ -71,13 +71,10 @@ desc:hover {
 .secret-mode {
     border-radius: 10px;
     padding: 5px;
-    width: 1.75em;
+    width: 2em;
+    height: 2em;
     font-size: large;
-    text-shadow:
-    1px 1px 0 #000,
-    -1px 1px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000;
     font-weight: bold;
     background-color: #3a3a3a;
     color: white;
