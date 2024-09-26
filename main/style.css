@@ -7,6 +7,10 @@ html {
     font-family: 'Fredoka', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .title-text {
     text-align: center;
     color: white;
@@ -55,8 +59,9 @@ p {
 
 .content {
     width: 85%;
-    margin: auto;
-    
+    height: 100vh;
+    margin-left: 58px;
+    margin-right: 58px;
 }
 
 desc {
@@ -108,7 +113,9 @@ desc:hover {
     font-weight: bold;
     border-radius: 5px;
     width: var(--width-for-boxes);
+    margin: calc((100vh - 50%) / 2) auto;
     padding: 1px 5px;
     word-wrap: break-word;
     cursor: default;
+    vertical-align: middle;
 }
