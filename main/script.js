@@ -9,3 +9,12 @@ function helpPopup() {
         helpVisibility = false;
     }
 }
+
+function rotate() {
+    const str = document.getElementById("rotating").innerHTML;
+    const chars = str.split("");
+    chars.sort(() => 0.5 - Math.random());
+    document.getElementById("rotating").innerHTML = chars.join("");
+}
+
+setInterval(rotate, 50)
