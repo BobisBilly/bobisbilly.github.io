@@ -17,5 +17,5 @@ function rotate() {
     document.getElementById("rotating").innerHTML = chars.join("");
 }
 
-setTimeout(1000)
+setTimeout(console.log("Loaded!"), 1000)
 setInterval(rotate, 50)
